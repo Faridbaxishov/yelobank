@@ -48,3 +48,6 @@ Kredit məbləği, müddət və faiz dərəcəsi əsasında **aylıq ödənişin
 - Input validasiyası uğurla test edilib  
 
 ---
+## 7. Test Coverage
+- **Test Case Coverage:** 100%  
+  - Hər test ssenarisi üçün müvafiq test case yazılacaq və icra olunacaq.  
