@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Online kredit sifarisi</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Kredit məbləği minimal dəyərdən 1 vahid aşağı olduqda  səhv mesajı göstərilir</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<preconds>Kredit sifarişi forması açıqdır.</preconds>
+											<steps_separated><step>
+<content>Kredit sifarişi bölməsini aç.</content><expected>Kredit sifarişi forması düzgün açılır, bütün inputlar görünür</expected></step>
+<step>
+<content>Kredit məbləği inputuna minimal dəyərdən 1 vahid aşağı məbləğ (399) daxil et</content><expected>Daxil edilən dəyər inputda göstərilir, sistem daxil edilən dəyəri qəbul edir</expected></step>
+<step>
+<content>Bütün digər tələb olunan inputları düzgün məlumatlarla doldur</content><expected>Bütün sahələr dolduruldu</expected></step>
+<step>
+<content>Sifaris et duymesini kilk et</content><expected>Sistem formu qəbul etmir və xəta yoxlaması işə düşür</expected></step>
+<step>
+<content>Sistem tərəfindən göstərilən xəta mesajını yoxla</content><expected>Ekranda “Kredit məbləği minimal dəyərdən aşağı ola bilməz” və ya uyğun xəta mesajı göstərilir; kredit sifarişi submit olunmur</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Kredit məbləği minimal dəyərə bərabər olduqda uğurlu müraciət</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Kredit məbləği minimal dəyərdən 1 vahid yuxarı olduqda uğurlu müraciət</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Kredit məbləği maksimum dəyərdən 1 vahid aşağı olduqda uğurlu müraciət</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Kredit məbləği maksimum dəyərə bərabər olduqda uğurlu müraciət</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Kredit məbləği maksimum dəyərdən 1 vahid yuxarı olduqda səhv mesajı göstərilir</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Kredit məbləği mənfi olduqda səhv mesajı göstərilir</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
