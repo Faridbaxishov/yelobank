@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R5</id>
+	<name>Test Run 9/5/2025</name>
+	<description></description>
+	<config></config>
+	<createdon>2025-09-05T18:40:22Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	
+	<stats>
+										<passed>
+			<percent>86</percent>
+			<count>6</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>14</percent>
+			<count>1</count>
+		</failed>
+																																																				</stats>	<sections>
+	<section>
+		<name>Online kredit sifarisi</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T45</id>
+				<title>Kredit məbləği minimal dəyərdən aşağı olduqda səhv mesajı göstərilir</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi bölməsini aç</content><expected>Kredit sifarişi forması düzgün açılır, bütün inputlar görünür</expected></step>
+<step>
+<content>Kredit məbləği inputuna minimal dəyərdən 1 vahid aşağı məbləğ daxil et</content><expected>Daxil edilən dəyər inputda göstərilir, sistem daxil edilən dəyəri qəbul edir</expected></step>
+<step>
+<content>Bütün digər tələb olunan inputları düzgün məlumatlarla doldur</content><expected>Bütün sahələr dolduruldu</expected></step>
+<step>
+<content>Sifaris et duymesini klik et </content><expected>Sistem formu qebul etmir ve xeta yoxlanmasi ise dusur</expected></step>
+<step>
+<content>Sistem terefinden gosterilen xeta mesajini yoxla</content><expected>SIstem formu qebul etmir ve xeta yoxlamasi ise dusur</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C33</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:42:01Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																																		<test>
+				<id>T46</id>
+				<title>Kredit məbləği minimal dəyərə bərabər olduqda uğurlu müraciət</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi formasını aç.</content><expected>Forma uğurla açılır, bütün məcburi input sahələri görünür</expected></step>
+<step>
+<content>Məbləğ inputuna minimal dəyərə bərabər olan məbləgi daxil et.</content><expected>Sistem məbləği qəbul edir, səhv mesajı göstərilmir.</expected></step>
+<step>
+<content>Butun teleb olunan inputlari duzgun melumatlarla doldur</content><expected>Butun saheler dolduruldu</expected></step>
+<step>
+<content>Sifaris et duymesini klik et</content><expected>Sistem formu qebul edir</expected></step>
+<step>
+<content>Sistem terefinden gosterilen ugurlu mesajini yoxla</content><expected>Ekranda &quot;kredit sifarisi qebul olundu&quot; yazilir</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C34</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:43:54Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:43:30Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+															<step_results>
+																		<step>
+<content>Kredit sifarişi formasını aç.</content><expected>Forma uğurla açılır, bütün məcburi input sahələri görünür</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Məbləğ inputuna minimal dəyərə bərabər olan məbləgi daxil et.</content><expected>Sistem məbləği qəbul edir, səhv mesajı göstərilmir.</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Butun teleb olunan inputlari duzgun melumatlarla doldur</content><expected>Butun saheler dolduruldu</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Sifaris et duymesini klik et</content><expected>Sistem formu qebul edir</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Sistem terefinden gosterilen ugurlu mesajini yoxla</content><expected>Ekranda &quot;kredit sifarisi qebul olundu&quot; yazilir</expected><actual></actual><status>Untested</status></step>
+								</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T47</id>
+				<title>Kredit məbləği minimal dəyərdən 1 vahid yuxarı olduqda uğurlu müraciət</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi formasını aç.</content><expected>Forma uğurla açılır, “Məbləğ” inputu görünür.</expected></step>
+<step>
+<content>Məbləğ inputuna minimal dəyərdən 400 1 vahid yuxarı məbləği daxil et</content><expected>Sistem məbləği qəbul edir, səhv mesajı göstərilmir</expected></step>
+<step>
+<content>Diger butun teleb olunan inputlar duzgun melumatlarla doldur</content><expected>Butun saheler dolduruldu</expected></step>
+<step>
+<content>“Sifariş et” düyməsini kliklə.</content><expected>Müraciət uğurla qəbul olunur və təsdiq mesajı göstərilir.
+
+</expected></step>
+<step>
+<content>Sistem terefinden gosterilen xeta mesajini yoxla</content><expected>Ekranda &quot;Kredit muraciyetiniz qebul olundu&quot; mesaji gosterilir.</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C35</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:44:10Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T48</id>
+				<title>Kredit məbləği maksimum dəyərdən 1 vahid aşağı olduqda uğurlu müraciət</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi formasını aç</content><expected>Forma uğurla açılır, bütün məcburi input sahələri görünür.</expected></step>
+<step>
+<content>Məbləğ inputuna maksimum dəyərdən 1 vahid aşağı məbləği daxil et</content><expected>Sistem məbləği qəbul edir, validation error göstərilmir.</expected></step>
+<step>
+<content>Digər məcburi input sahələrini  düzgün məlumatlarla doldur</content><expected>Bütün saheler dolduruldu</expected></step>
+<step>
+<content>“Sifariş et” düyməsini kliklə.</content><expected>Sorğu uğurla göndərilir və sistem tərəfindən “Müraciətiniz qəbul olundu” tipli uğurlu mesaj göstərilir.</expected></step>
+<step>
+<content>Sistem terefinden gosterilen ugurlu mesajleri yoxla</content><expected>Ekranda &quot;kredit sifarisi qebul olundu&quot; yazilir</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C36</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:44:27Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T49</id>
+				<title>Kredit məbləği maksimum dəyərə bərabər olduqda uğurlu müraciət</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi formasını aç.</content><expected>Forma uğurla açılır, bütün məcburi input sahələri görünür.</expected></step>
+<step>
+<content>“Məbləğ” inputuna maksimum dəyərə bərabər olan məbləği daxil et</content><expected>Sistem məbləği qəbul edir, heç bir səhv mesaj göstərilmir.</expected></step>
+<step>
+<content>Digər məcburi input sahələrini  düzgün məlumatlarla doldur.</content><expected>Bütün məcburi inputlar validasiya olunur, səhv mesaj göstərilmir.</expected></step>
+<step>
+<content>“Sifariş et” düyməsini kliklə.</content><expected>Sorğu uğurla göndərilir və sistem tərəfindən “Müraciətiniz qəbul olundu” tipli uğurlu mesaj göstərilir.</expected></step>
+<step>
+<content>Sistem terefinden gosterilen ugurlu mesajini yoxla</content><expected>Ekranda &quot;Kredit sifarisiniz qebul olundu&quot; yazildi</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C37</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:44:44Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																			<test>
+				<id>T50</id>
+				<title>Kredit məbləği maksimum dəyərdən 1 vahid yuxarı olduqda səhv mesajı göstərilir</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<steps_separated><step>
+<content>Kredit sifarişi formasını aç.</content><expected>Forma uğurla açılır, bütün məcburi input sahələri  görünür.</expected></step>
+<step>
+<content>“Məbləğ” inputuna maksimum dəyərdən 1 vahid yuxarı məbləği daxil et</content><expected>Sistem məbləği qəbul etmir, xəta mesajı aktiv olur.</expected></step>
+<step>
+<content>Digər məcburi input sahələrini düzgün məlumatlarla doldur.</content><expected>Bütün inputlar validasiya olunur, lakin kredit məbləği maksimum dəyəri aşdığı üçün xəta mesajı göstərilir.</expected></step>
+<step>
+<content>“Sifariş et” düyməsini kliklə.</content><expected>Sistem formu submit etmir və ekranda “Kredit məbləği maksimum dəyəri keçə bilməz” tipli xəta mesajı göstərilir.</expected></step>
+<step>
+<content>Sistem terefinden gosterilen xeta mesajlarini yoxla</content><expected>Ekranda &quot;Kredit meblegi minimal deyerden asagi ola bilmez&quot; ve ya uygun xeta mesaji gosterilir, kredit submit olunmur</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C38</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Passed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:46:13Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+									            																																																																		<test>
+				<id>T51</id>
+				<title>Kredit məbləği mənfi olduqda səhv mesajı göstərilir</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C39</caseid>
+																			<casestatus></casestatus>
+																<caseassignedto></caseassignedto>
+										
+																	<status>Failed</status>
+																<assignedto>Farid Baxisov</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2025-09-05T18:49:10Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Menfi ededi qebul etdi</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:46:52Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2025-09-05T18:40:22Z</createdon>
+																		<createdby>Farid Baxisov</createdby>
+												<status>Untested</status>
+																								<assignedto>Farid Baxisov</assignedto>
+																		<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
